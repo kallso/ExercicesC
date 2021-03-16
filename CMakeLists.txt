@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.17)
+project(ExosCnam C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(ExosCnam main.c)
+add_executable(ExosCnam1 exo1.c)
+add_executable(ExosCnam2 exo2.c)
+add_executable(ExosCnam3 exo3.c)
+add_executable(ExosCnam4 exo4.c)
+add_executable(ExosCnam5 exo5.c)
+add_executable(ExosCnam6 exo6.c)
+add_executable(ExosCnam7 exo7.c)
+add_executable(ExosCnam8 exo8.c)
+add_executable(ExosCnam9 exo9.c)
+add_executable(ExosCnam10 exo10.c)
+add_executable(ExosCnamMemoire exoMemoire.c)
