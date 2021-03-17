@@ -15,3 +15,8 @@ add_executable(ExosCnam8 exo8.c)
 add_executable(ExosCnam9 exo9.c)
 add_executable(ExosCnam10 exo10.c)
 add_executable(ExosCnamMemoire exoMemoire.c)
+add_executable(ExosCnam11 exo11.c)
+add_executable(ExosCnam12 exo12.c)
+add_executable(ExosCnam13 exo13.c)
+
+target_link_libraries(ExosCnam13 m)

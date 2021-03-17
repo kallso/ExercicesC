@@ -255,6 +255,44 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ExosCnam12">
+				<Option output="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/ExosCnam12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExosCnam12"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ExosCnam12/fast">
+				<Option output="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/ExosCnam12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExosCnam12/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ExosCnam4">
 				<Option output="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/ExosCnam4" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug"/>
@@ -341,6 +379,44 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ExosCnam13">
+				<Option output="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/ExosCnam13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExosCnam13"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ExosCnam13/fast">
+				<Option output="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/ExosCnam13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExosCnam13/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ExosCnam7">
 				<Option output="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/ExosCnam7" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug"/>
@@ -374,6 +450,44 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExosCnam7/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ExosCnam11">
+				<Option output="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/ExosCnam11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExosCnam11"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ExosCnam11/fast">
+				<Option output="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/ExosCnam11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kallso/CLionProjects/ExosCnam/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 ExosCnam11/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kallso/CLionProjects/ExosCnam/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -499,6 +613,15 @@
 		</Unit>
 		<Unit filename="/home/kallso/CLionProjects/ExosCnam/exo10.c">
 			<Option target="ExosCnam10"/>
+		</Unit>
+		<Unit filename="/home/kallso/CLionProjects/ExosCnam/exo11.c">
+			<Option target="ExosCnam11"/>
+		</Unit>
+		<Unit filename="/home/kallso/CLionProjects/ExosCnam/exo12.c">
+			<Option target="ExosCnam12"/>
+		</Unit>
+		<Unit filename="/home/kallso/CLionProjects/ExosCnam/exo13.c">
+			<Option target="ExosCnam13"/>
 		</Unit>
 		<Unit filename="/home/kallso/CLionProjects/ExosCnam/exo2.c">
 			<Option target="ExosCnam2"/>

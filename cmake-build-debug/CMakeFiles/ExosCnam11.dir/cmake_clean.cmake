@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ExosCnam11.dir/exoMemoire.c.o"
+  "CMakeFiles/ExosCnam11.dir/exo11.c.o"
   "ExosCnam11"
   "ExosCnam11.pdb"
 )

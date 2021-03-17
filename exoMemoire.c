@@ -27,6 +27,8 @@ int main( void ) {
 
     // CONSTANTE3 = 0; // CONSTANTE2 est une constante, on ne peux pas changer sa valeur.
 
+    // 2.
+
     int *pCONSTANTE1, *pCONSTANTE2, *pCONSTANTE3;
 
     // pCONSTANTE1 = &CONSTANTE1;
@@ -52,6 +54,8 @@ int main( void ) {
      * Le systeme d'exploitation ne remarque rien du tout, tout est normal selon lui. */
     printf("CONSTANTE3 : %i \n", CONSTANTE3); // CONSTANTE3 est maintenant 2021.
 
+    // 3.
+
     for (int i = 0; i < 11; ++i) {
         printf("tab1[%i] = %p : %i \n", i, &tab1[i], tab1[i]);
     }
@@ -74,15 +78,37 @@ int main( void ) {
         printf("tab2[%i] = %p : %i \n", i, &tab2[i], tab1[i]);
     }
 
-    /* TODO expliquer
-     *
+    printf("\n");
+
+    /* Meme constatation que precedement mais on voit ici plus de choses, on voit que les deux int v1 et v2 sont juste
+     * au dessus dans la memoire que les deux tableaux tab1 et tab2. On peux en deduire que les variables
+     * non tableaux sont toutes les unes a la suite des autres avant les tableaux qui sont tous a la fin et
+     * consequetivement.
      */
+
+    // 4.
 
     int *pV1 = &v1;
     pV1 = &CONSTANTE3;
     *pV1 = 2022;
 
-    printf("pv1 = %p, sa valeur pointé : %i \n", pV1, *pV1);
+    printf("Adresse de pv1 = %p, pv1 = %p, sa valeur pointé : %i . L'adresse de CONSTANTE3 : %p \n", (void*)&pV1, (void*)pV1, *pV1, (void*)&CONSTANTE3);
     printf("CONSTANTE3 = %i \n", CONSTANTE3);
 
+    printf("\n");
+
+    for (int i = -13; i < 11; ++i) {
+        printf("tab2[%i] = %p : %i \n", i, (void*)&tab2[i], tab1[i]);
+    }
+
+    printf("\n");
+
+    /* Je ne constate rien de spéciale et je dirai meme que je n'ai pas du tout compris l'interet de la manoeuvre.
+     * L'iniatilsiation du pointeur avec l'adresse memoire de v1 n'a aucun interet car meme pas prit en compte ...
+     */
+
+    // 5.
+
+    short *pShort;
+    printf("Taille d'un pointeur donc d'une adresse en octect = %zu, donc %lu bits. \n", sizeof pShort, sizeof(pShort) * 8);
 }
